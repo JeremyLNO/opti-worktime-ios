@@ -1,0 +1,473 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BA0000000000000000000001 /* OptiWorktimeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0000000000000000000001 /* OptiWorktimeApp.swift */; };
+		BA0000000000000000000002 /* PomodoroEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0000000000000000000002 /* PomodoroEngine.swift */; };
+		BA0000000000000000000003 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0000000000000000000003 /* ContentView.swift */; };
+		BA0000000000000000000004 /* LiveActivityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0000000000000000000004 /* LiveActivityManager.swift */; };
+		BA0000000000000000000005 /* PomodoroModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB0000000000000000000001 /* PomodoroModels.swift */; };
+		BA0000000000000000000006 /* Palette.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB0000000000000000000002 /* Palette.swift */; };
+		BA0000000000000000000007 /* Localization.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB0000000000000000000003 /* Localization.swift */; };
+		BA0000000000000000000008 /* PomodoroAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB0000000000000000000004 /* PomodoroAttributes.swift */; };
+		BA0000000000000000000009 /* GardenVisuals.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB0000000000000000000005 /* GardenVisuals.swift */; };
+		BA000000000000000000000A /* LiveActivityViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB0000000000000000000006 /* LiveActivityViews.swift */; };
+		BA000000000000000000000D /* SyncModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0000000000000000000007 /* SyncModels.swift */; };
+		BA000000000000000000000E /* CloudSync.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0000000000000000000008 /* CloudSync.swift */; };
+		BA000000000000000000000B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC0000000000000000000005 /* Assets.xcassets */; };
+		BA000000000000000000000C /* OptiWorktimeWidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = CC0000000000000000000002 /* OptiWorktimeWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		BD0000000000000000000001 /* OptiWorktimeWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD0000000000000000000001 /* OptiWorktimeWidget.swift */; };
+		BD0000000000000000000002 /* OptiWorktimeLiveActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD0000000000000000000002 /* OptiWorktimeLiveActivity.swift */; };
+		BD0000000000000000000003 /* PomodoroModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB0000000000000000000001 /* PomodoroModels.swift */; };
+		BD0000000000000000000004 /* Palette.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB0000000000000000000002 /* Palette.swift */; };
+		BD0000000000000000000005 /* Localization.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB0000000000000000000003 /* Localization.swift */; };
+		BD0000000000000000000006 /* PomodoroAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB0000000000000000000004 /* PomodoroAttributes.swift */; };
+		BD0000000000000000000007 /* GardenVisuals.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB0000000000000000000005 /* GardenVisuals.swift */; };
+		BD0000000000000000000008 /* LiveActivityViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB0000000000000000000006 /* LiveActivityViews.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		11000000000000000000A2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA0000000000000000000001 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BB0000000000000000000002;
+			remoteInfo = OptiWorktimeWidget;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		FF0000000000000000000003 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				BA000000000000000000000C /* OptiWorktimeWidgetExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		AB0000000000000000000001 /* PomodoroModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PomodoroModels.swift; sourceTree = "<group>"; };
+		AB0000000000000000000002 /* Palette.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Palette.swift; sourceTree = "<group>"; };
+		AB0000000000000000000003 /* Localization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Localization.swift; sourceTree = "<group>"; };
+		AB0000000000000000000004 /* PomodoroAttributes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PomodoroAttributes.swift; sourceTree = "<group>"; };
+		AB0000000000000000000005 /* GardenVisuals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GardenVisuals.swift; sourceTree = "<group>"; };
+		AB0000000000000000000006 /* LiveActivityViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveActivityViews.swift; sourceTree = "<group>"; };
+		AC0000000000000000000001 /* OptiWorktimeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptiWorktimeApp.swift; sourceTree = "<group>"; };
+		AC0000000000000000000002 /* PomodoroEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PomodoroEngine.swift; sourceTree = "<group>"; };
+		AC0000000000000000000003 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AC0000000000000000000004 /* LiveActivityManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveActivityManager.swift; sourceTree = "<group>"; };
+		AC0000000000000000000005 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AC0000000000000000000007 /* SyncModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SyncModels.swift; sourceTree = "<group>"; };
+		AC0000000000000000000008 /* CloudSync.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloudSync.swift; sourceTree = "<group>"; };
+		AD0000000000000000000001 /* OptiWorktimeWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptiWorktimeWidget.swift; sourceTree = "<group>"; };
+		AD0000000000000000000002 /* OptiWorktimeLiveActivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptiWorktimeLiveActivity.swift; sourceTree = "<group>"; };
+		AD0000000000000000000003 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC0000000000000000000001 /* OptiWorktime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OptiWorktime.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC0000000000000000000002 /* OptiWorktimeWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = OptiWorktimeWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FF0000000000000000000004 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF0000000000000000000006 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AA0000000000000000000002 = {
+			isa = PBXGroup;
+			children = (
+				AC0000000000000000000006 /* OptiWorktime */,
+				AD0000000000000000000004 /* OptiWorktimeWidget */,
+				AA0000000000000000000004 /* Shared */,
+				AA0000000000000000000003 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AA0000000000000000000003 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CC0000000000000000000001 /* OptiWorktime.app */,
+				CC0000000000000000000002 /* OptiWorktimeWidgetExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AA0000000000000000000004 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				AB0000000000000000000001 /* PomodoroModels.swift */,
+				AB0000000000000000000002 /* Palette.swift */,
+				AB0000000000000000000003 /* Localization.swift */,
+				AB0000000000000000000004 /* PomodoroAttributes.swift */,
+				AB0000000000000000000005 /* GardenVisuals.swift */,
+				AB0000000000000000000006 /* LiveActivityViews.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		AC0000000000000000000006 /* OptiWorktime */ = {
+			isa = PBXGroup;
+			children = (
+				AC0000000000000000000001 /* OptiWorktimeApp.swift */,
+				AC0000000000000000000002 /* PomodoroEngine.swift */,
+				AC0000000000000000000003 /* ContentView.swift */,
+				AC0000000000000000000004 /* LiveActivityManager.swift */,
+				AC0000000000000000000007 /* SyncModels.swift */,
+				AC0000000000000000000008 /* CloudSync.swift */,
+				AC0000000000000000000005 /* Assets.xcassets */,
+			);
+			path = OptiWorktime;
+			sourceTree = "<group>";
+		};
+		AD0000000000000000000004 /* OptiWorktimeWidget */ = {
+			isa = PBXGroup;
+			children = (
+				AD0000000000000000000001 /* OptiWorktimeWidget.swift */,
+				AD0000000000000000000002 /* OptiWorktimeLiveActivity.swift */,
+				AD0000000000000000000003 /* Info.plist */,
+			);
+			path = OptiWorktimeWidget;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BB0000000000000000000001 /* OptiWorktime */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD0000000000000000000002 /* Build configuration list for PBXNativeTarget "OptiWorktime" */;
+			buildPhases = (
+				FF0000000000000000000001 /* Sources */,
+				FF0000000000000000000004 /* Frameworks */,
+				FF0000000000000000000002 /* Resources */,
+				FF0000000000000000000003 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				11000000000000000000A1 /* PBXTargetDependency */,
+			);
+			name = OptiWorktime;
+			productName = OptiWorktime;
+			productReference = CC0000000000000000000001 /* OptiWorktime.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BB0000000000000000000002 /* OptiWorktimeWidget */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD0000000000000000000003 /* Build configuration list for PBXNativeTarget "OptiWorktimeWidget" */;
+			buildPhases = (
+				FF0000000000000000000005 /* Sources */,
+				FF0000000000000000000006 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OptiWorktimeWidget;
+			productName = OptiWorktimeWidgetExtension;
+			productReference = CC0000000000000000000002 /* OptiWorktimeWidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AA0000000000000000000001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2650;
+				LastUpgradeCheck = 2650;
+				TargetAttributes = {
+					BB0000000000000000000001 = {
+						CreatedOnToolsVersion = 26.5;
+					};
+					BB0000000000000000000002 = {
+						CreatedOnToolsVersion = 26.5;
+					};
+				};
+			};
+			buildConfigurationList = DD0000000000000000000001 /* Build configuration list for PBXProject "OptiWorktime" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AA0000000000000000000002;
+			productRefGroup = AA0000000000000000000003 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BB0000000000000000000001 /* OptiWorktime */,
+				BB0000000000000000000002 /* OptiWorktimeWidget */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FF0000000000000000000002 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA000000000000000000000B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FF0000000000000000000001 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA0000000000000000000001 /* OptiWorktimeApp.swift in Sources */,
+				BA0000000000000000000002 /* PomodoroEngine.swift in Sources */,
+				BA0000000000000000000003 /* ContentView.swift in Sources */,
+				BA0000000000000000000004 /* LiveActivityManager.swift in Sources */,
+				BA0000000000000000000005 /* PomodoroModels.swift in Sources */,
+				BA0000000000000000000006 /* Palette.swift in Sources */,
+				BA0000000000000000000007 /* Localization.swift in Sources */,
+				BA0000000000000000000008 /* PomodoroAttributes.swift in Sources */,
+				BA0000000000000000000009 /* GardenVisuals.swift in Sources */,
+				BA000000000000000000000A /* LiveActivityViews.swift in Sources */,
+				BA000000000000000000000D /* SyncModels.swift in Sources */,
+				BA000000000000000000000E /* CloudSync.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF0000000000000000000005 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD0000000000000000000001 /* OptiWorktimeWidget.swift in Sources */,
+				BD0000000000000000000002 /* OptiWorktimeLiveActivity.swift in Sources */,
+				BD0000000000000000000003 /* PomodoroModels.swift in Sources */,
+				BD0000000000000000000004 /* Palette.swift in Sources */,
+				BD0000000000000000000005 /* Localization.swift in Sources */,
+				BD0000000000000000000006 /* PomodoroAttributes.swift in Sources */,
+				BD0000000000000000000007 /* GardenVisuals.swift in Sources */,
+				BD0000000000000000000008 /* LiveActivityViews.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		11000000000000000000A1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BB0000000000000000000002 /* OptiWorktimeWidget */;
+			targetProxy = 11000000000000000000A2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		EE0000000000000000000001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		EE0000000000000000000002 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EE0000000000000000000003 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = OptiWorktime/OptiWorktime.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2E6D4Q69QB;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Opti Worktime";
+				INFOPLIST_KEY_NSSupportsLiveActivities = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = company.lno.optiworktime;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EE0000000000000000000004 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = OptiWorktime/OptiWorktime.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2E6D4Q69QB;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Opti Worktime";
+				INFOPLIST_KEY_NSSupportsLiveActivities = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = company.lno.optiworktime;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EE0000000000000000000005 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2E6D4Q69QB;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = OptiWorktimeWidget/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = company.lno.optiworktime.OptiWorktimeWidget;
+				PRODUCT_NAME = OptiWorktimeWidgetExtension;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EE0000000000000000000006 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2E6D4Q69QB;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = OptiWorktimeWidget/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = company.lno.optiworktime.OptiWorktimeWidget;
+				PRODUCT_NAME = OptiWorktimeWidgetExtension;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DD0000000000000000000001 /* Build configuration list for PBXProject "OptiWorktime" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE0000000000000000000001 /* Debug */,
+				EE0000000000000000000002 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD0000000000000000000002 /* Build configuration list for PBXNativeTarget "OptiWorktime" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE0000000000000000000003 /* Debug */,
+				EE0000000000000000000004 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD0000000000000000000003 /* Build configuration list for PBXNativeTarget "OptiWorktimeWidget" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE0000000000000000000005 /* Debug */,
+				EE0000000000000000000006 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AA0000000000000000000001 /* Project object */;
+}
