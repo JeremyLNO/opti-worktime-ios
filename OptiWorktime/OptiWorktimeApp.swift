@@ -21,6 +21,7 @@ struct OptiWorktimeApp: App {
         if args.contains("-startLiveActivity") {
             PomodoroEngine.shared.start()
         }
+        OneSignalPush.start()
     }
 
     var body: some Scene {

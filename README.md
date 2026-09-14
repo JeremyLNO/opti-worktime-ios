@@ -56,3 +56,21 @@ iCloud » et l'app fonctionne en local.
 ## À venir
 
 Widget d'écran d'accueil, notifications, réglages avancés.
+
+## Push notifications (OneSignal)
+
+The `OneSignal-XCFramework` Swift Package (pinned to **5.5.1**, only the
+`OneSignalFramework` product) is linked into the app target, the app declares
+`aps-environment`, and Push is enabled on the App ID `company.lno.optiworktime`.
+
+Everything is gated on one constant — `OneSignalPush.appID` in
+`OptiWorktime/OneSignalPush.swift`. While it is empty the SDK is never
+initialised: no registration, no network call, no permission prompt. Paste the App ID
+from onesignal.com ▸ Settings ▸ Keys & IDs to switch push on.
+
+OneSignal carries Crazy Bee Labs announcements and app-update notices only; anything
+this app schedules for itself stays a local notification. A tap on a push can only open
+an `apps.apple.com` or `crazybeelabs.com` link — the payload is untrusted input.
+
+Still required server-side before any push is delivered: an APNs `.p8` key uploaded to
+the OneSignal app (Settings ▸ Platforms ▸ Apple iOS).
