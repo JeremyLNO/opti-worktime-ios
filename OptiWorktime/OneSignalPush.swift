@@ -15,7 +15,7 @@ import OneSignalFramework
 /// own integration guidance.
 enum OneSignalPush {
     /// OneSignal App ID — onesignal.com ▸ Settings ▸ Keys & IDs. Empty = push disabled.
-    static let appID = ""
+    static let appID = "377b2422-afb4-4625-801f-e4d0f5fb0d5c"
 
     static var isConfigured: Bool { !appID.isEmpty }
 
