@@ -3,6 +3,7 @@ import UIKit
 
 struct ContentView: View {
     @State private var engine = PomodoroEngine.shared
+    @AppStorage("push.cbl.enabled") private var cblNews = false
     @Environment(\.openURL) private var openURL
 
     var body: some View {
@@ -49,6 +50,9 @@ struct ContentView: View {
 
                 iCloudStatus
                     .padding(.top, 8)
+
+                newsOptIn
+                    .padding(.top, 6)
             }
             .padding(.horizontal, 22)
             .padding(.bottom, 8)
@@ -144,6 +148,26 @@ struct ContentView: View {
             }
             .buttonStyle(.plain)
         }
+    }
+
+    // Nouvelles Crazy Bee Labs. La permission système n'est demandée qu'au moment où
+    // l'utilisateur dit oui — jamais au lancement, où elle n'aurait aucun sens à ses yeux.
+    private var newsOptIn: some View {
+        Button {
+            cblNews.toggle()
+            if cblNews { OneSignalPush.promptForPermission() }
+            OneSignalPush.setOptedIn(cblNews)
+        } label: {
+            HStack(spacing: 5) {
+                Image(systemName: cblNews ? "bell.fill" : "bell.slash")
+                Text(L.t("Crazy Bee Labs news", "Actualités Crazy Bee Labs"))
+                Text(cblNews ? L.t("on", "activées") : L.t("off", "désactivées"))
+                    .foregroundStyle(.white.opacity(cblNews ? 0.75 : 0.35))
+            }
+            .font(.caption2)
+            .foregroundStyle(.white.opacity(0.45))
+        }
+        .buttonStyle(.plain)
     }
 
     private func statTile(_ icon: String, _ value: String, _ label: String, _ tint: Color) -> some View {
