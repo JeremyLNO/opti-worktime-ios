@@ -29,8 +29,6 @@
 		BD0000000000000000000006 /* PomodoroAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB0000000000000000000004 /* PomodoroAttributes.swift */; };
 		BD0000000000000000000007 /* GardenVisuals.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB0000000000000000000005 /* GardenVisuals.swift */; };
 		BD0000000000000000000008 /* LiveActivityViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB0000000000000000000006 /* LiveActivityViews.swift */; };
-		3C9FD006A5351A5974C24FC9 /* OneSignalFramework in Frameworks */ = {isa = PBXBuildFile; productRef = 70EE5E12703E74C378A806FB /* OneSignalFramework */; };
-		4E0FEB07DEE838926D87E2D7 /* OneSignalPush.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37BC344113DDE730A249FB01 /* OneSignalPush.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,7 +63,6 @@
 		AB0000000000000000000005 /* GardenVisuals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GardenVisuals.swift; sourceTree = "<group>"; };
 		AB0000000000000000000006 /* LiveActivityViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveActivityViews.swift; sourceTree = "<group>"; };
 		AC0000000000000000000001 /* OptiWorktimeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptiWorktimeApp.swift; sourceTree = "<group>"; };
-		37BC344113DDE730A249FB01 /* OneSignalPush.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OneSignalPush.swift; sourceTree = "<group>"; };
 		AC0000000000000000000002 /* PomodoroEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PomodoroEngine.swift; sourceTree = "<group>"; };
 		AC0000000000000000000003 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		AC0000000000000000000004 /* LiveActivityManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveActivityManager.swift; sourceTree = "<group>"; };
@@ -84,7 +81,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3C9FD006A5351A5974C24FC9 /* OneSignalFramework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -134,7 +130,6 @@
 			isa = PBXGroup;
 			children = (
 				AC0000000000000000000001 /* OptiWorktimeApp.swift */,
-				37BC344113DDE730A249FB01 /* OneSignalPush.swift */,
 				AC0000000000000000000002 /* PomodoroEngine.swift */,
 				AC0000000000000000000003 /* ContentView.swift */,
 				AC0000000000000000000004 /* LiveActivityManager.swift */,
@@ -173,9 +168,6 @@
 				11000000000000000000A1 /* PBXTargetDependency */,
 			);
 			name = OptiWorktime;
-			packageProductDependencies = (
-				70EE5E12703E74C378A806FB /* OneSignalFramework */,
-			);
 			productName = OptiWorktime;
 			productReference = CC0000000000000000000001 /* OptiWorktime.app */;
 			productType = "com.apple.product-type.application";
@@ -223,9 +215,6 @@
 				Base,
 			);
 			mainGroup = AA0000000000000000000002;
-			packageReferences = (
-				3D8E18829F2994CC0A86AF80 /* XCRemoteSwiftPackageReference "OneSignal-XCFramework" */,
-			);
 			productRefGroup = AA0000000000000000000003 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -252,7 +241,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4E0FEB07DEE838926D87E2D7 /* OneSignalPush.swift in Sources */,
 				BA0000000000000000000001 /* OptiWorktimeApp.swift in Sources */,
 				BA0000000000000000000002 /* PomodoroEngine.swift in Sources */,
 				BA0000000000000000000003 /* ContentView.swift in Sources */,
@@ -292,25 +280,6 @@
 			targetProxy = 11000000000000000000A2 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin XCRemoteSwiftPackageReference section */
-		3D8E18829F2994CC0A86AF80 /* XCRemoteSwiftPackageReference "OneSignal-XCFramework" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/OneSignal/OneSignal-XCFramework";
-			requirement = {
-				kind = exactVersion;
-				version = 5.5.1;
-			};
-		};
-/* End XCRemoteSwiftPackageReference section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		70EE5E12703E74C378A806FB /* OneSignalFramework */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 3D8E18829F2994CC0A86AF80 /* XCRemoteSwiftPackageReference "OneSignal-XCFramework" */;
-			productName = OneSignalFramework;
-		};
-/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCBuildConfiguration section */
 		EE0000000000000000000001 /* Debug */ = {
